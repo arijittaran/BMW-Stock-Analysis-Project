@@ -1,0 +1,24 @@
+# BMW-Stock-Analysis-Project
+This Python project performs a comprehensive Financial Time Series Analysis on BMW's historical stock data. It demonstrates core data science competencies: handling time-series data, feature engineering, statistical modeling, and data visualization.
+
+# Project Workflow & Code Implementation
+The project follows a standard Data Science lifecycle:
+
+**Data Cleaning:** We converted the Date column to a standard datetime format and sorted the data chronologically. We also checked for duplicates and handled potential noise.
+
+**Data Transformation:** We engineered several technical indicators:
+
+**Moving Averages (50-day & 200-day):** To identify long-term and short-term trends.
+
+**Daily Returns:** Calculated using percentage change to measure day-to-day profitability.
+
+**Volatility:** An annualized 30-day rolling standard deviation to assess market risk.
+
+**Data Manipulation:** We segmented the data by year and month to identify seasonal trends and filtered historical data to focus on recent market performance (2014-2024).
+
+**Numerical & Statistical Analysis:**
+**Correlation Analysis:** Used to see how volume impacts price movement.
+
+**Return Distribution:** Analyzed the skewness and kurtosis of returns to understand risk profiles.
+
+**Data Visualization:** Generated five key plots to communicate insights effectively to stakeholders.
